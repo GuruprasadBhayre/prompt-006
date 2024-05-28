@@ -1,0 +1,368 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Helvetica;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.calculator{
+    width: 22%;
+    height: 85%;
+    background-color: #000000;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.calculator > h1{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 23%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+.fristline{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    position: absolute;
+    top: 30%;
+    padding: 2px;
+}
+.ac{
+    height: 60px;
+    width: 60px;
+    color: #000000;
+    background-color: #A5A5A5;
+    border: none;
+    border-radius: 50%;
+    position: relative;  
+}
+.ac > h1{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.plusminus{
+    height: 60px;
+    width: 60px;
+    color: #000000;
+    background-color: #A5A5A5;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+}
+.plusminus > h1{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mpersent{
+    height: 60px;
+    width: 60px;
+    color: #000000;
+    background-color: #A5A5A5;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.mpersent > h1{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.divide{
+    height: 60px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    background-color: #FF9F0A;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.divide > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.secondline{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 44%;
+    padding: 2px;
+}
+.seven{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.seven > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.eight{
+
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.eight > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nine{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.nine > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.multiply{
+    height: 60px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    background-color: #FF9F0A;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.multiply > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.thrdline{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 58%;
+    padding: 2px;
+}
+.four{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.four > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.five{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.five > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.six{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.six > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.minus{
+    height: 60px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    background-color: #FF9F0A;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.minus > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fourthline{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 72%;
+    padding: 2px;
+}
+.one{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.one > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.two{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.two > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.three{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.three > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.plus{
+    height: 60px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    background-color: #FF9F0A;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.plus > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fifthline{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 86%;
+    padding: 2px;
+}
+.zero{
+    height: 60px;
+    width: 130px;
+    color: white;
+    background-color: #333333;    
+    border: none;
+    border-radius: 30px;
+    position: relative;
+}
+.zero > h1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.point{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.point > h1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.equal{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #FF9F0A;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+.equal > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
